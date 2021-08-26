@@ -1,0 +1,3147 @@
+2020-12-17 09:24:15,823 INFO    MainThread:9907 [wandb_setup.py:_flush():70] setting env: {}
+2020-12-17 09:24:15,824 INFO    MainThread:9907 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2020-12-17 09:24:15,824 INFO    MainThread:9907 [wandb_setup.py:_flush():70] setting login settings: {}
+2020-12-17 09:24:15,824 INFO    MainThread:9907 [wandb_init.py:_log_setup():303] Logging user logs to ./icrl/wandb/run-20201217_092415-173sfsh3/logs/debug.log
+2020-12-17 09:24:15,824 INFO    MainThread:9907 [wandb_init.py:_log_setup():304] Logging internal logs to ./icrl/wandb/run-20201217_092415-173sfsh3/logs/debug-internal.log
+2020-12-17 09:24:17,391 INFO    MainThread:9907 [wandb_run.py:_console_start():1237] atexit reg
+2020-12-17 09:24:17,392 INFO    MainThread:9907 [wandb_run.py:_redirect():1104] redirect: SettingsConsole.REDIRECT
+2020-12-17 09:24:17,393 INFO    MainThread:9907 [wandb_run.py:_redirect():1107] Redirecting console.
+2020-12-17 09:24:17,393 INFO    MainThread:9907 [redirect.py:install():204] install start
+2020-12-17 09:24:17,393 INFO    MainThread:9907 [redirect.py:install():219] install stop
+2020-12-17 09:24:17,394 INFO    MainThread:9907 [redirect.py:install():204] install start
+2020-12-17 09:24:17,394 INFO    MainThread:9907 [redirect.py:install():219] install stop
+2020-12-17 09:24:17,394 INFO    MainThread:9907 [wandb_run.py:_redirect():1151] Redirects installed.
+2020-12-17 09:24:17,395 INFO    MainThread:9907 [wandb_config.py:__setitem__():135] config set save_dir = ./icrl/wandb/run-20201217_092415-173sfsh3/files - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7efd4937a160>>
+2020-12-17 09:24:17,395 INFO    MainThread:9907 [wandb_run.py:_config_callback():549] config_cb save_dir ./icrl/wandb/run-20201217_092415-173sfsh3/files {'file_to_run': 'cpg', 'config_file': None, 'project': 'ExpertData', 'name': 'HCWithPos-v0_tk_0.01_s_27_sid_0', 'group': 'HCWithPos', 'device': 'cpu', 'verbose': 2, 'wandb_sweep': False, 'sync_wandb': False, 'cost_info_str': 'cost', 'normalize_cost': False, 'train_env_id': 'HCWithPos-v0', 'eval_env_id': 'HCWithPosTest-v0', 'dont_normalize': False, 'seed': 27, 'policy_name': 'TwoCriticsMlpPolicy', 'shared_layers': None, 'policy_layers': [64, 64], 'reward_vf_layers': [64, 64], 'cost_vf_layers': [64, 64], 'cnn_features_dim': 512, 'timesteps': 5000000, 'n_steps': 2048, 'batch_size': 64, 'n_epochs': 10, 'num_threads': 5, 'save_every': 2048, 'eval_every': 2048, 'plot_every': 2048, 'reward_gamma': 0.99, 'reward_gae_lambda': 0.95, 'cost_gamma': 0.99, 'cost_gae_lambda': 0.95, 'budget': 0.0, 'clip_range': 0.2, 'clip_range_reward_vf': None, 'clip_range_cost_vf': None, 'ent_coef': 0.0, 'reward_vf_coef': 0.5, 'cost_vf_coef': 0.5, 'target_kl': 0.01, 'max_grad_norm': 0.5, 'learning_rate': 0.0003, 'use_pid': False, 'penalty_initial_value': 1, 'penalty_learning_rate': 0.1, 'update_penalty_after': 1, 'use_sde': False, 'sde_sample_freq': -1, 'use_null_cost': False, 'cn_path': None, 'cn_obs_select_dim': None, 'cn_acs_select_dim': None, 'cn_device': None, '_wandb': {'cli_version': '0.10.12', 'python_version': '3.8.3', 'is_jupyter_run': False, 'is_kaggle_kernel': False, 'framework': 'torch'}, 'save_dir': './icrl/wandb/run-20201217_092415-173sfsh3/files'}
+2020-12-17 10:31:36,251 INFO    MainThread:9907 [wandb_run.py:_atexit_cleanup():1207] got exitcode: 0
+2020-12-17 10:31:36,252 INFO    MainThread:9907 [wandb_run.py:_restore():1179] restore
+2020-12-17 10:31:36,253 INFO    MainThread:9907 [redirect.py:uninstall():223] uninstall start
+2020-12-17 10:31:36,253 INFO    MainThread:9907 [redirect.py:_stop():278] _stop: stdout
+2020-12-17 10:31:36,253 INFO    MainThread:9907 [redirect.py:_stop():284] _stop closed: stdout
+2020-12-17 10:31:36,253 INFO    stdout    :9907 [redirect.py:_pipe_relay():120] relay done saw last write: stdout
+2020-12-17 10:31:36,253 INFO    stdout    :9907 [redirect.py:_pipe_relay():136] relay done done: stdout
+2020-12-17 10:31:36,253 INFO    MainThread:9907 [redirect.py:_stop():290] _stop joined: stdout
+2020-12-17 10:31:36,253 INFO    MainThread:9907 [redirect.py:_stop():292] _stop rd closed: stdout
+2020-12-17 10:31:36,253 INFO    MainThread:9907 [redirect.py:uninstall():227] uninstall done
+2020-12-17 10:31:36,253 INFO    MainThread:9907 [redirect.py:uninstall():223] uninstall start
+2020-12-17 10:31:36,253 INFO    MainThread:9907 [redirect.py:_stop():278] _stop: stderr
+2020-12-17 10:31:36,254 INFO    MainThread:9907 [redirect.py:_stop():284] _stop closed: stderr
+2020-12-17 10:31:36,254 INFO    stderr    :9907 [redirect.py:_pipe_relay():120] relay done saw last write: stderr
+2020-12-17 10:31:36,254 INFO    stderr    :9907 [redirect.py:_pipe_relay():136] relay done done: stderr
+2020-12-17 10:31:36,254 INFO    MainThread:9907 [redirect.py:_stop():290] _stop joined: stderr
+2020-12-17 10:31:36,254 INFO    MainThread:9907 [redirect.py:_stop():292] _stop rd closed: stderr
+2020-12-17 10:31:36,254 INFO    MainThread:9907 [redirect.py:uninstall():227] uninstall done
+2020-12-17 10:31:36,263 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "f41df2f4df404b7d94f837859eed7134"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 1045
+      total_bytes: 1045
+    }
+  }
+}
+
+2020-12-17 10:31:42,856 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "246bcb2f525e434db36afcdab32959e2"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 3436606
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:31:44,862 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "c3de2198f4b847cfaebec6f4d3d4fe9e"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 4208431
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:31:46,869 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "9a145ff2da0c41abaec56e39a7722b70"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 5473533
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:31:48,875 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "3f2a9503579b46028de18ba381f068f9"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 6694141
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:31:50,881 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "6b342492464a48eaa56f4a4458a51658"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 7471315
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:31:52,888 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "f5251604c720429cbcbc3872641d8b3b"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 8691135
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:31:54,894 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "5aa165c32c514e4ab860d008585f17b6"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 9351779
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:31:56,900 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "4b477e5fc204485f8389d78bffd38256"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 10148154
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:31:58,906 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "68050292145d46c0a441a71f3cb1ccda"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 10954754
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:32:00,913 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "bcd1408c3948458080dd2533b9b77171"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 11511810
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:32:02,919 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "4e6c621b773a4ec4a78a5e2d57cf50cd"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 12049549
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:32:04,926 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "e82013a42a8d4faaaf6c59a9d3a571a1"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 12837712
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:32:06,932 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "1326f8bffe7047a49c5d288f8e30174b"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 13616527
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:32:08,938 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "00bfce91995a4dad938a9714852b3ce3"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 14121485
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:32:10,947 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "7d0f9aea727c417089fcd32c8ac8e8fc"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 14645835
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:32:12,953 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "b851cc1db05a42a99dca85d63c7e5b03"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 15105226
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:32:14,959 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "8b7b957197e9407081ab9e997029e08f"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 15695721
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:32:16,966 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "3f6ec5ee26ba401eb06cd08e59058b13"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 16395531
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:32:18,972 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "270f987bf5c84a5db098e75261316c11"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 16904125
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:32:20,978 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "bae57f7ea8f1433cb82774497ec87557"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 17805245
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:32:22,985 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "d8b05367b3644962b2390a913ed2fa51"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 18863786
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:32:24,991 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "61b2e458b53a4678b4329815b1a83928"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 19711053
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:32:26,998 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "c10af543cc654145b6885c5836c024ae"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 20296238
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:32:29,004 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "15e1a5fd838a492890b4067446de139d"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 20817625
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:32:31,010 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "be12e9b9c87a45cd851b7c61bb2eab9a"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 21294507
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:32:33,016 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "5a6c636eafe34cae9e8858effdc2a41d"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 22410977
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:32:35,023 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "8b86e45ce5c745fea73ff8c755dabe1e"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 23281084
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:32:37,029 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "fbbc0abdcc39443cb51b450addf97b26"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 23884384
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:32:39,035 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "560c876687bc4dcb9cb3481a1280fbfb"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 24608814
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:32:41,042 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "13a28e0d7f854cb38d46a63e1e5987a8"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 25288750
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:32:43,048 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "87cc0e8aec3b47d38d9d4295055310a6"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 26069264
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:32:45,054 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "dfafb01b508d4a2a811d5b81eda37f29"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 26741008
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:32:47,061 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "17ae985b74964c0093c38a101b7680fa"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 27395285
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:32:49,067 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "5dede6d32b2f44f792b2b0e4b1c18d08"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 27793824
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:32:51,073 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "5d1dcba2944946e68c1b262ce8ff0833"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 28480802
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:32:53,080 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "89234ce344c9402bab45d6981d2d38b0"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 29236246
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:32:55,086 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "e0df6a9fd0b7426198c0ee82ebbc914f"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 30441909
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:32:57,093 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "4d6dce7da0e94136a8573d8cc260e8be"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 31061551
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:32:59,099 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "05a77f0036b644ccb2416b95118370a4"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 31654950
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:33:01,105 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "f76038f7d53949c3b788599bb068a6fa"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 32231895
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:33:03,112 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "0c55d1d766764ec18a8df283547e3b0d"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 32801347
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:33:05,118 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "9dce8997d68947728c96104a9afa2bec"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 33126105
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:33:07,124 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "4a4790dcc1574834afe3a9952f7f7175"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 33832425
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:33:09,131 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "f0fa76958c9e45cd9b4b8f461ca63776"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 34681297
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:33:11,137 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "67f159c8dd70478c8bdeadf8050cdf42"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 35705297
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:33:13,143 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "981c1b9aa4c946d7856b9cb935854290"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 36511556
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:33:15,150 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "8f1f6617e1f4486ba6b607cf209dfc7b"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 37403311
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:33:17,156 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "27286a33a73743f4a5f2acdd81f18afb"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 38270436
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:33:19,162 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "ce997a610a9643d78fa976a03abce87a"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 39107805
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:33:21,169 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "82dbb093cd8d4e7abe1ffd0b7a5cbe23"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 39617456
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:33:23,175 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "d7d0667413b64d448808e4ca898744c1"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 40142388
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:33:25,182 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "7c77830bf64f4e159aa235d7dc2cb4dc"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 40792625
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:33:27,188 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "f1e27333bafa4b0082b0e701c7b45327"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 41222104
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:33:29,194 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "bd6c48575f1543248ec47ef8a75b54eb"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 41902647
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:33:31,201 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "bddf3bf9e3994d0daedf9d6a139cdf0e"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 42307558
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:33:33,207 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "a2eace4956c84d97aa831da403ac633e"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 42673853
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:33:35,214 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "1054e3170e8445719356eb0b4f00af83"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 43506541
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:33:37,220 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "bcd55335a4c244808ce2761ac7e4ba0d"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 44386556
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:33:39,226 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "812df25d31ed4dc4a6de3bb799d83f9d"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 45102836
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:33:41,233 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "696ae6761151499d963d77fd976e4224"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 46001119
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:33:43,239 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "0966968c31354ba68ea2082cc3dbe84b"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 46786835
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:33:45,246 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "7224bd9be61d42dcb9d9342c884aa685"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 47627694
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:33:47,252 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "a09943e08691485e99e112ad7ceb863e"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 48186527
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:33:49,258 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "52fcc82c5ce4456ab305389a3534567d"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 49076485
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:33:51,265 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "da8d86b7550648699619b4f862cf3e75"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 49981495
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:33:53,271 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "f84395e29e2042bdbe649d4f98cfc131"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 50527430
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:33:55,278 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "a8e9aa5394a1499b9884149892ce7665"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 51065194
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:33:57,284 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "dfae35351ccb411090a5865f1200497d"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 52048234
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:33:59,290 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "35cdd419225b4a0d96279173afd5969a"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 52746314
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:34:01,297 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "3afc962c55894843a5e9ae4b1f3d20f3"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 53865721
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:34:03,303 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "1733363f8d01451fb5c6c0550f471fc7"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 54756103
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:34:05,310 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "fde74b09ef0d4c1e893922e48a1b5d86"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 55418889
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:34:07,316 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "deec18ab56544e3995036ee22051450c"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 56216997
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:34:09,322 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "c75b407ab2bd4fb3a267ef92f92bc6b8"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 56797590
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:34:11,329 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "6c8cbdbd8d08444d9779202c0670423b"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 57135185
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:34:13,335 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "839bf39678b5498baa2925ee7d14730f"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 57771230
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:34:15,340 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "49a3979f7a3548638c5550be08ac2fee"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 58294425
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:34:17,346 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "ad19cf9fffdc4be28f6ab6ab691b8373"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 59059775
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:34:19,352 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "f1e8d0454b6f408d9d087a058e5764a8"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 59517442
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:34:21,361 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "92c4ff1f6d14473db49d284ddce3a5ab"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 59876775
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:34:23,368 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "a499ca004b8d432fb6c0c010a28f3afe"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 60724412
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:34:25,374 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "5c5d8d064e0b4d209281cfe84680579b"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 61301383
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:34:27,381 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "885ea2dc2f8b4ca19d12e452060d6685"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 62119488
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:34:29,387 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "46fd11cbc2a14827aa709a483e0cd545"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 62681781
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:34:31,396 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "4b299b9c9aaa492488e693cc35de4988"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 63750257
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:34:33,403 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "d516c33763134914911af28f4b59552b"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 64540267
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:34:35,409 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "0c07cdd3886a451a82b1ac1326ca53a5"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 65313992
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:34:37,416 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "a9f139a34d6b4c8890ebb6044601325b"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 66031985
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:34:39,422 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "c9181e139d144f2bafc11bb7d6b9e080"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 66850059
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:34:41,428 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "d8f65beaf22b427f8d5b89d39eedee7f"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 67466242
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:34:43,435 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "f4aac0f5d5764b9d8a3b73a66570a331"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 68061714
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:34:45,443 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "6116361ae26541fcbeb7ba4a1663f63c"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 68871560
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:34:47,449 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "48f913ac8bbe45038826f6249c009069"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 69831815
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:34:49,456 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "ddcffc0157e04d7594820c1723480e3b"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 70508891
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:34:51,462 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "5d36bfdea1bf47cc80d6c1b7d9a6a719"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 71636553
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:34:53,469 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "da7dc5712b0d4b49a62676e93b4e5a75"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 72025067
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:34:55,475 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "da63e5a283224c25b9a70af49c8b660a"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 72548236
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:34:57,482 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "f5d1d1fd9f544218a98344f3d824e1a5"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 73839960
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:34:59,488 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "df11479d9f4e482aa0cfe1be2f070fd0"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 74626392
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:35:01,495 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "768c942845c7415ba8b01d0fd1fd3195"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 74905504
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:35:03,501 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "aeec4a7307f241019765bb294f6144ca"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 75538073
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:35:05,508 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "d487c452d03047a0ab5e11374264588e"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 76980483
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:35:07,514 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "318723f40c65495d98ff12c19190085b"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 77631113
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:35:09,520 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "f8aa32ad27b74eb4814b51890a73b39a"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 78280791
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:35:11,527 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "594cdc7ea5ff4cf7a03afd983637a6f5"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 78906915
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:35:13,533 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "56a5dd5bcb8f43beb90aeecc5d1cc12f"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 79322067
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:35:15,540 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "2902e617802549d7b7b1bad08d9d90e4"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 80193980
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:35:17,546 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "41197b9ddbb0447ab34e1d4800903d44"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 81103292
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:35:19,553 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "e7731eb2c7b54b0e9694dc858a775f38"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 81507182
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:35:21,559 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "5238a2c76d6c4bb3ab955771d8c83e57"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 82526528
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:35:23,565 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "8a5f7c116d4e4e529002049716015439"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 83575104
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:35:25,572 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "6f14af43d89548069e0833caecbfbd49"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 84002104
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:35:27,578 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "569af73bca514791ac54fbed9e00a558"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 84416964
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:35:29,585 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "056b66a258264683b6a40e4615da5999"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 85239748
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:35:31,591 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "de823130045f4bc8abe887380ace552d"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 86046067
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:35:33,597 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "592128c13dc44d98a92833c4319faf10"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 86549305
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:35:35,604 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "ab65b1146b9f4c9b847db7644e80ef99"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 87032196
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:35:37,612 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "35dcbc571170462f920176b9075d50a0"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 87493362
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:35:39,619 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "7dabfea2cbb14057a93cf19b4e34ca6f"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 88307936
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:35:41,625 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "ed2958fe20ef42ba81552c078ba1e53c"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 89507467
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:35:43,632 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "4be47aa85331478a9c472be4028e1169"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 90281029
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:35:45,638 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "17082317aab24b558efc8e25133e0d0e"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 91002943
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:35:47,644 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "aa5a44099f5c4e908d54f34e49a66e77"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 91684618
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:35:49,651 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "067f14d972db4246916e7cdf6225a983"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 92337109
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:35:51,657 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "33d229d5169c413b9c744f8d86d26e0e"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 93547669
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:35:53,663 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "fb26f7101e33436fbd807d7b97757a69"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 94065542
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:35:55,671 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "56c9eee5cb8a425e966aa49425a864ae"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 94555972
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:35:57,677 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "f680863959794655bf41e4a67f857a59"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 95096526
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:35:59,684 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "787b56f2c8234f2ebd6dd18bb12ff5d1"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 95798206
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:36:01,690 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "54ace373dc704a1aa52f6cc5163c572c"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 96778250
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:36:03,697 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "77d623d13d3d4188a53a8b4752979c0e"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 97514387
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:36:05,703 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "7cafd6a1514a470a9d500d58e5b3935b"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 98099502
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:36:07,710 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "b98bd6f2ef1f4c21941377e9ec999cbb"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 98887717
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:36:09,716 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "0e5aceef3d17400b90ce9ea5e3d795ae"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 99433728
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:36:11,723 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "22436cf6a6a04c959e253d3596aca10b"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 100706300
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:36:13,729 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "4aa6a964a26f4e2bb9549429a1dbb10e"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 101438946
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:36:15,736 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "ba6dce7d8ba44041b8d0f97ab2afc094"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 101863755
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:36:17,744 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "b34d18a427c34a89b19a8ba6c54f448a"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 102368767
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:36:19,750 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "dd93b15dc74a4245b53e0b38b2833b77"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 102716345
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:36:21,757 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "cb0e57de97fa4549af4941a660127c0e"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 103280404
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:36:23,763 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "4b756c61373f476eafbc9357d8446fc9"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 104203218
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:36:25,770 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "d1c52153ccf54e9c90ee289767fd7521"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 104901335
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:36:27,776 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "3fe408a3b4e7426ba221b578adb64f0a"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 105965261
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:36:29,786 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "078e410e667d475cbde6b44684f33e18"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 106263709
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:36:31,793 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "35aed8500b494a77b9d53bea674d181c"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 107168313
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:36:33,799 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "ef339547ff38435da9e4ef93cfe65fb5"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 107904468
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:36:35,806 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "3d1e700c718e4f5c815e0f440c566b95"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 108750043
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:36:37,812 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "cc7a423ddbcd403594163cd10db54ab5"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 109802098
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:36:39,819 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "0a1d0092141d44329bb78d93e872a504"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 110476637
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:36:41,825 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "3704989b8ca24522840fbeada66abac8"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 110763168
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:36:43,832 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "f60fd7deafb542e38de77f465cac3999"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 111374668
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:36:45,839 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "544f8b05cf374a8aad9e6b2fa326268c"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 112203849
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:36:47,845 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "5d68968158004eb4ba450f900bb4f30b"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 112764415
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:36:49,852 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "0d1a7e60733642f19c35368294dd0cdc"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 113490630
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:36:51,859 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "dbfbfdb6ced44e2ca2932f12c92a6fa1"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 114542721
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:36:53,866 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "efc20932e86b4db4bc8e02cc3aaa196b"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 115121874
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:36:55,872 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "698db0f7c92f4c70b88b55596b76f448"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 115784252
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:36:57,879 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "6688d66f0e054e3d8e8e77ebf469b260"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 116543103
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:36:59,885 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "1f79359f7e2c4ac1a4db7ba3936a88a5"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 117333089
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:37:01,891 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "3f0fbc45d81947cab86036b8fae5d12d"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 118358888
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:37:03,897 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "be8c7aeffaf14e5f9cd8a9b3f893ee8a"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 119327287
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:37:05,904 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "558d7745db7a48a381c2dbaa9b1f7d7a"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 120078019
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:37:07,910 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "8d07bf696e9f4d22a2614a77c06b691e"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 120598174
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:37:09,917 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "3d4bdf3ee37846aaba8dbd70d5cfc5e7"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 121291562
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:37:11,923 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "b5a31f3c59364d668bf898ea01b4cdd3"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 121925883
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:37:13,930 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "d40159c25b164dae96d870b6693f55fe"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 122474308
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:37:15,936 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "f28dacb129de49399338dca2fd80514c"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 122931219
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:37:17,943 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "0aafd2877d034806bedc9be45ce5ce03"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 123429828
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:37:19,949 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "62397aee597447609cd09ba6dd138cda"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 123777442
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:37:21,956 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "ed8104fd7d8f4871af3703f376dfafc5"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 123919005
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:37:23,962 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "53e4efcabf3648b0b74e5acf98ba82d2"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 124250250
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:37:25,969 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "d26210fbb1a747098a723e48ce95f162"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 124573194
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:37:27,975 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "e78810665fb34bdcb3d242407af420b7"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 124739172
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:37:29,981 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "3c23db61f9844e04904b3d71547199d2"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 124739172
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:37:31,987 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "02462c089a73428798c1461fc07fa387"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 124739172
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:37:33,993 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "0860eae05ece4778b52ceb99b2b15b50"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 124742698
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:37:35,999 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "f96b264d56334122ab0e3a7561848eb4"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 124742698
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:37:38,005 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "f675a021fde54abd9f65935cbdd9a039"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 124977390
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:37:40,012 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "81c995bc18194396a9e0742abec2b871"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 124977390
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:37:42,019 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "7c9c24fd9cd14063b46f1c6d0ebc7d99"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 124977390
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:37:44,025 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "4588c88d11fe48d1b795c18cb0617ed2"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 124977390
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:37:46,031 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "db4db66db4f04aa388c137358a747513"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 124977390
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:37:48,038 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "58984574ba2f4add81cd2f1ccd395e78"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 124977390
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:37:50,044 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "e9e36e16d52642729f25eb3de3d5913b"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 124977390
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:37:52,050 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "a449c3fab56541d8945a3d88d06cd980"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 124977390
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:37:54,056 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "ac6f2495475740c4b8061a1aefec4c31"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 124977390
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:37:56,062 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "38d04f0dfb9847fca4d0d661257c3524"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 124977390
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:37:58,067 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "c9ca06d195324c35bd4a2586629765d9"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 124977390
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:38:00,075 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "c93ec8305c00423fb3d2d65b42815b0c"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 124977390
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:38:02,081 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "61e09d773d39430196ce38f3e6a1217a"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 124977390
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:38:04,088 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "10705fc51c0442b8a09c949fb66e0498"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 125059310
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:38:06,094 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "cb5a8481534a49058c3d06ee9a10465d"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 125143007
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:38:08,100 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "277db6035c124201b71a119696706e44"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 125226733
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:38:10,106 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "7a5c4deec3504a3e9c54b5b039d704bc"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 125226733
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:38:12,112 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "71525df592b544e0b63d076ab0dbd60b"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 125226733
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:38:14,118 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "4f14fd9ffa2d44c987228de3dd7d8b60"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 125226733
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:38:16,124 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "163ebe69b6ab4a13ae9a54a897ff42e8"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 125226733
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:38:18,130 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "10a80297721f47e5bcc2a1c00cd211e1"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 125226733
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:38:20,136 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "61587cbf23ef4fcc99495dd906e33f39"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 125226733
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:38:22,142 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "e467d6355e1345bc8ff9b85ffb457b43"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 125226733
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:38:24,148 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "2bc96d18950b4019897908562c59f0da"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 125226733
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:38:26,154 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "37235ebbe68a494c9200d2c94cc00252"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 125226733
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:38:28,160 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "2e09aec2ec4245a59a775108e1531601"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 125226733
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:38:30,166 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "e506ab3e04fa4bd685251f4c0aa02f98"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 125226733
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:38:32,172 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "11f5c1d7de6a40abb452e41739b701f7"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 125226733
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:38:34,178 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "037c61b959cc48a8b4b3384a3b4671d1"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 125226733
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:38:36,184 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "be221d0f9b3944e69a667a7c6465dc77"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 125226733
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:38:38,190 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "ae72e2defcd04882a6fc566d928ae322"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 125226733
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:38:40,195 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "92283925965c4355989e970496eea18e"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 125226733
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:38:42,201 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "3f59feb2e7d04d6289f880e4db2a9d65"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 125226733
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:38:44,207 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "f7c9aa99eb8b462eaf58f5e1f44ccdad"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 125226733
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:38:46,212 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "9af879c0fb9847409258b3137c35d415"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 125226733
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:38:48,219 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "0307537b730d4dbfba3ae1bfcf975bf7"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 125226733
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:38:50,225 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "38650f406a1b42d28fde14bf84a436b3"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 125226733
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:38:52,231 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "73bcfe1efccb4ed0b691398eb9f46326"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 125226733
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:38:54,238 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "dc0098bf98ef4770a811b6f5e376ccc5"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 125226733
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:38:56,244 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "ed84f0b85072410fb473cf49412cf658"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 125226733
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:38:58,251 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "3aa2feec9ebe48d2bf4067db4081bcc0"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 125226733
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:39:00,257 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "320866ce48ca44589e4d83fe9c1b9b19"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 125226733
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:39:02,263 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "edcc951d3e0743eab4f3f0b77e5b39c1"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 125310398
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:39:04,269 INFO    MainThread:9907 [wandb_run.py:_wait_for_finish():1324] got exit ret: uuid: "7c7929ccb759453bbdc91540d6047227"
+response {
+  poll_exit_response {
+    done: true
+    exit_result {
+    }
+    file_counts {
+      wandb_count: 5
+      other_count: 495
+    }
+    pusher_stats {
+      uploaded_bytes: 125310398
+      total_bytes: 125310398
+    }
+  }
+}
+
+2020-12-17 10:39:05,380 INFO    MainThread:9907 [wandb_run.py:_show_summary():1469] rendering summary
+2020-12-17 10:39:05,380 INFO    MainThread:9907 [wandb_run.py:_show_history():1507] rendering history
+2020-12-17 10:39:05,385 INFO    MainThread:9907 [wandb_run.py:_show_files():1536] logging synced files
+2020-12-17 10:39:05,387 INFO    MainThread:9907 [internal.py:handle_exit():138] Internal process exited

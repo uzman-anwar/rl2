@@ -1,0 +1,6 @@
+.rl
+wandb
+__pycache__
+pruning/datasets/*
+*.swp
+MUJOCO_LOG.TXT

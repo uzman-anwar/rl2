@@ -1,0 +1,20 @@
+1. Show that GAIL fails in presence of spurious features.
+    (a) Add an interpretability layer on top of GAIL.       (Research, Coding)
+    (b) Run experiments on HC with spurious features        (Experiments)
+        (i) 1    (ii) 5      (iii) 10
+    (c) Repeat above with Ant.                              (Experiments)
+
+2. Show that filteration scheme helps alleviate this issue. (Experiments)
+
+3. Implement AIRL Loss.                                     (Research, Coding)
+
+4. Implement Gradient Penalty & VAIL & TPIL & TRAIL.        (Coding)
+
+5. Run PPO on Pong.
+    (a) Code pg.py                                          (Coding)
+    (b) Typical color scheme.                               (Experiment)
+    (c) Flipped color scheme.                               (Experiment)
+
+6. Repeat 5a and 5b with GAIL.                              (Experiment)
+7. Repeat 5a and 5b with VGAIL.                             (Experiment)
+8. Repeat 5a and 5b with Robust GAIL.                       (Experiment)

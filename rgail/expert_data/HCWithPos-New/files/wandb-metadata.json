@@ -1,0 +1,38 @@
+{
+    "os": "Linux-4.15.0-123-generic-x86_64-with-glibc2.10",
+    "python": "3.8.3",
+    "heartbeatAt": "2020-12-17T04:24:17.304966",
+    "startedAt": "2020-12-17T04:24:15.820730",
+    "docker": null,
+    "gpu": "GeForce RTX 2080 Ti",
+    "gpu_count": 3,
+    "cpu_count": 12,
+    "cuda": "10.1.243",
+    "args": [
+        "cpg",
+        "-p",
+        "ExpertData",
+        "--timesteps",
+        "5e6",
+        "--group",
+        "HCWithPos",
+        "-tk",
+        "0.01",
+        "-tei",
+        "HCWithPos-v0",
+        "-eei",
+        "HCWithPosTest-v0"
+    ],
+    "state": "running",
+    "codePath": "run_me.py",
+    "program": "run_me.py",
+    "git": {
+        "remote": "https://github.com/shehryar-malik/rl_codebase.git",
+        "commit": "6e7dd5d6bd1bae843098efbc553238ee1c9a44e6"
+    },
+    "email": null,
+    "root": "/home/linuxubuntu/Desktop/shehryar-usman/rl_codebase",
+    "host": "linuxubuntu-X299-UD4-Pro",
+    "username": "linuxubuntu",
+    "executable": "/home/linuxubuntu/Desktop/shehryar-usman/rl_codebase/.rl/bin/python"
+}
